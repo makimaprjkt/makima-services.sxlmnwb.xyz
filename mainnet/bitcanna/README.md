@@ -14,13 +14,13 @@ BitCanna will provide a decentralized payment network and supply chain for the l
 
 * RPC : [rpc-bitcanna.sxlmnwb.xyz](https://rpc-bitcanna.sxlmnwb.xyz)
 * API : [api-bitcanna.sxlmnwb.xyz](https://api-bitcanna.sxlmnwb.xyz)
-* gRPC : `https://grpc-bitcanna.sxlmnwb.xyz:443`
+* gRPC : `grpc-bitcanna.sxlmnwb.xyz:11390`
 
 ## Peering
 
 #### **State Sync Peer**
 ```
-1bde35502e91374b5c06b843964c56050455aaef@peer-bitcanna.sxlmnwb.xyz:11356
+1bde35502e91374b5c06b843964c56050455aaef@rpc-bitcanna.sxlmnwb.xyz:11356
 ```
 
 #### **Seeds**

@@ -123,7 +123,7 @@ curl -Ls https://ss-bitcanna.sxlmnwb.xyz/mainnet/addrbook.json > $HOME/.bcna/con
 
 #### Set peers and seeds
 ```bash
-PEERS="1bde35502e91374b5c06b843964c56050455aaef@peer-bitcanna.sxlmnwb.xyz:11356"
+PEERS="1bde35502e91374b5c06b843964c56050455aaef@rpc-bitcanna.sxlmnwb.xyz:11356"
 SEEDS="39d10a2e6ba7acbd714d1fde9ba0f2f4b7346f67@seed-bitcanna.sxlmnwb.xyz:11356"
 sed -i -e "s|^persistent_peers *=.*|persistent_peers = \"$PEERS\"|" $HOME/.bcna/config/config.toml
 sed -i -e "s|^seeds *=.*|seeds = \"$SEEDS\"|" $HOME/.bcna/config/config.toml

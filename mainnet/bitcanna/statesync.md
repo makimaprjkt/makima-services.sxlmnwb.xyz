@@ -48,7 +48,7 @@ bcnad tendermint unsafe-reset-all --home $HOME/.bcna --keep-addr-book
 
 ```bash
 SNAP_RPC="https://rpc-bitcanna.sxlmnwb.xyz:443"
-STATESYNC_PEERS="1bde35502e91374b5c06b843964c56050455aaef@peer-bitcanna.sxlmnwb.xyz:11356"
+STATESYNC_PEERS="1bde35502e91374b5c06b843964c56050455aaef@rpc-bitcanna.sxlmnwb.xyz:11356"
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
