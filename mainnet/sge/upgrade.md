@@ -4,7 +4,7 @@ description: Prepare for and the upcomming chain upgrade using Cosmovisor.
 
 # Upgrade
 
-<figure><img src="../../.gitbook/assets/sge.svg" height="100" weight="100" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sge.png" height="100" weight="100" alt=""><figcaption></figcaption></figure>
 
 **Network:** Mainnet | **Chain ID:** sgenet-1 | **Version:** v1.1.1
 
