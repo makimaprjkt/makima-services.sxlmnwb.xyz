@@ -63,7 +63,7 @@ Please make sure you have adjusted **moniker**, **identity**, **details** and **
 
 ```bash
 bcnad tx staking create-validator \
---amount=100000000ubcna \
+--amount=100000ubcna \
 --pubkey=$(bcnad tendermint show-validator) \
 --moniker="YOUR_MONIKER_NAME" \
 --identity="YOUR_KEYBASE_ID" \
@@ -143,31 +143,31 @@ bcnad tx distribution withdraw-rewards $(bcnad keys show wallet --bech val -a) -
 #### Delegate tokens to yourself
 
 ```bash
-bcnad tx staking delegate $(bcnad keys show wallet --bech val -a) 1000000utia --from wallet --chain-id bitcanna-1  --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
+bcnad tx staking delegate $(bcnad keys show wallet --bech val -a) 1000000ubcna --from wallet --chain-id bitcanna-1  --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
 ```
 
 #### Delegate tokens to validator
 
 ```bash
-bcnad tx staking delegate <TO_VALOPER_ADDRESS> 1000000utia --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
+bcnad tx staking delegate <TO_VALOPER_ADDRESS> 1000000ubcna --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
 ```
 
 #### Redelegate tokens to another validator
 
 ```bash
-bcnad tx staking redelegate $(bcnad keys show wallet --bech val -a) <TO_VALOPER_ADDRESS> 1000000utia --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
+bcnad tx staking redelegate $(bcnad keys show wallet --bech val -a) <TO_VALOPER_ADDRESS> 1000000ubcna --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
 ```
 
 #### Unbond tokens from your validator
 
 ```bash
-bcnad tx staking unbond $(bcnad keys show wallet --bech val -a) 1000000utia --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
+bcnad tx staking unbond $(bcnad keys show wallet --bech val -a) 1000000ubcna --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
 ```
 
 #### Send tokens to the wallet
 
 ```bash
-bcnad tx bank send wallet <TO_WALLET_ADDRESS> 1000000utia --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
+bcnad tx bank send wallet <TO_WALLET_ADDRESS> 1000000ubcna --from wallet --chain-id bitcanna-1 --gas-adjustment 1.4 --gas auto --gas-prices 0ubcna
 ```
 
 ## Governance
