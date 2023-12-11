@@ -14,7 +14,7 @@ Since we are using Cosmovisor, it makes it very easy to prepare for upcomming up
 
 | Executable | Node Version |
 | ----| ------------ |
-| **sged**|v1.1.1 > v1.1.2|
+| **sged**|v1.1.1 > v1.2.0|
 
 {% hint style="info" %}
 if you get an error looking at logs updating on nodes try updating available new version.
@@ -33,7 +33,7 @@ cd $HOME
 rm -rf sge
 git clone https://github.com/sge-network/sge.git
 cd sge
-git checkout v1.1.2
+git checkout v1.2.0
 ```
 
 #### Build binaries
@@ -43,8 +43,8 @@ make build
 
 #### Prepare binaries for Cosmovisor
 ```bash
-mkdir -p $HOME/.sge/cosmovisor/upgrades/v1.1.2/bin
-mv build/sged $HOME/.sge/cosmovisor/upgrades/v1.1.2/bin/
+mkdir -p $HOME/.sge/cosmovisor/upgrades/v1.2.0/bin
+mv build/sged $HOME/.sge/cosmovisor/upgrades/v1.2.0/bin/
 rm -rf build
 ```
 
