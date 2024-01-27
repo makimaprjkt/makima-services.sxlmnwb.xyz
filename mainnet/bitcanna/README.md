@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/bitcanna.svg" height="100" weight="100" alt=""><figcaption></figcaption></figure>
 
-**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v2.0.3
+**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v3.0.0
 
 {% hint style="info" %}
 BitCanna will provide a decentralized payment network and supply chain for the legal cannabis industry. On this website, you'll currently find everything related to our blockchain network.

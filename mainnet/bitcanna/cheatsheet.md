@@ -7,7 +7,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/bitcanna.svg" height="100" weight="100" alt=""><figcaption></figcaption></figure>
 
-**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v2.0.3
+**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v3.0.0
 
 ## Key management
 

@@ -6,7 +6,7 @@ description: Setting up your validator node has never been so easy. Get your val
 
 <figure><img src="../../.gitbook/assets/bitcanna.svg" height="100" weight="100" alt=""><figcaption></figcaption></figure>
 
-**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v2.0.3
+**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v3.0.0
 
 ### Setup validator name
 
@@ -44,7 +44,7 @@ cd $HOME
 rm -rf bcna
 git clone https://github.com/BitCannaGlobal/bcna.git
 cd bcna
-git checkout v2.0.3
+git checkout v3.0.0
 ```
 
 #### Build binaries

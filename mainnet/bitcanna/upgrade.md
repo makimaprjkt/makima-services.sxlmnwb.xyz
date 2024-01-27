@@ -6,7 +6,7 @@ description: Prepare for and the upcomming chain upgrade using Cosmovisor.
 
 <figure><img src="../../.gitbook/assets/bitcanna.svg" height="100" weight="100" alt=""><figcaption></figcaption></figure>
 
-**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v2.0.3
+**Network:** Mainnet | **Chain ID:** bitcanna-1 | **Version:** v3.0.0
 
 {% hint style="info" %}
 Since we are using Cosmovisor, it makes it very easy to prepare for upcomming upgrade. You just have to build new binaries and move it into cosmovisor upgrades directory.
@@ -14,7 +14,7 @@ Since we are using Cosmovisor, it makes it very easy to prepare for upcomming up
 
 | Executable | Node Version |
 | ----| ------------ |
-| **bcnad**|v2.0.2 > v2.0.3|
+| **bcnad**|v2.0.3 > v3.0.0|
 
 {% hint style="info" %}
 if you get an error looking at logs updating on nodes try updating available new version.
@@ -33,7 +33,7 @@ cd $HOME
 rm -rf bcna
 git clone https://github.com/BitCannaGlobal/bcna.git
 cd bcna
-git checkout v2.0.3
+git checkout v3.0.0
 ```
 
 #### Build binaries
@@ -43,8 +43,8 @@ make build
 
 #### Prepare binaries for Cosmovisor
 ```bash
-mkdir -p $HOME/.bcna/cosmovisor/upgrades/wakeandbake/bin
-mv build/bcnad $HOME/.bcna/cosmovisor/upgrades/wakeandbake/bin/
+mkdir -p $HOME/.bcna/cosmovisor/upgrades/ganjarevolution/bin
+mv build/bcnad $HOME/.bcna/cosmovisor/upgrades/ganjarevolution/bin/
 rm -rf build
 ```
 
